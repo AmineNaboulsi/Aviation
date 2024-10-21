@@ -13,20 +13,20 @@ body{
     box-sizing: border-box;
 }
 
-/* Small */
+/* Mobile */
 @media (min-width: 768px) {
     .container {
       width: 850px;
     }
   }
-  /* Medium */
+  /* tablet */
   @media (min-width: 992px) {
     .container {
       width: 970px;
     }
   
   }
-  /* Large */
+  /* desktop */
   @media (min-width: 1200px) {
     .container {
       width: 1170px;
