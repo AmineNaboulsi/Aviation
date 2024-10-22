@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .window > .contaniner{
+            /* color: aqua; */
+            color: attr(data-color);
+        }
+        .contaniner::after{
+            content: attr(data-content);
+        }
+    </style>
+</head>
+<body>
+    
+    <h1 class="contaniner" data-content="salam" >test</h1>
+</body>
+</html>
