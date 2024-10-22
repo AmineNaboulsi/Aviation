@@ -1,18 +1,24 @@
 :root{
     --PrimaryColor : #18599C ;
     --SecondColor : #D14A37 ;
+    --TitleColor : rgb(37, 37, 37);
+    --SubtitleColor : rgb(87, 86, 86);
+    --IconsImgSize : 40px
 }
 body{
     margin: 0;
     padding: 0;
     height: 100dvh;
+    position: relative;
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+.container{
+  margin-inline: auto;
+}
 /* Mobile */
 @media (min-width: 768px) {
     .container {
