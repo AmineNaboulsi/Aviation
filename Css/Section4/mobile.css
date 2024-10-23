@@ -1,0 +1,114 @@
+@media screen and (max-width: 768px) {
+
+    h2{
+        font-size: 30px;
+    }
+    p{
+        font-size: 16px;
+    }
+    .contact{
+        border: none;
+        border-radius: 30px;
+        margin: 1%;
+        padding: 5%;
+        position: relative;
+        width: auto;
+        height: 600px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.07);
+        border-radius: 25.3896px;
+    
+    }
+    .bt{
+        
+            text-align: end;
+            margin-top: 100px;
+    }
+    form button{
+        border: none;
+        border-radius: 20px;
+        width: 90px;
+        height: 30px;
+        background-color: #D14A37;
+        color: #FAFAFA;
+        transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    form button:hover { 
+        background-color: #000000;
+        transform: scale(1.1); 
+        color: #FFFFFF;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    }
+    
+    .forms input{   
+        width: 100%;
+        padding: 5%;
+        border: none;
+        background-color: #FAFAFA;
+        background-color: #FAFAFA;
+        transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+   .forms input:focus {
+    border-color: #000000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    outline: none; 
+   }
+
+    .forms input:hover {
+    border-color: #C74C31; 
+   }
+    
+    .forms{
+    
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns:200px ;
+        gap: 7%;
+    }
+    .desing{
+        display: none;
+    }
+    .media img{
+        width: 75%;
+       
+    }
+    .item1, .item2, .item3{
+        border: none;
+        border-radius: 10px;
+    }
+    .media{
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns:auto auto;
+        align-items: center;
+        justify-items: center;        
+        gap :5%
+    }
+
+    .insight {
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+.item1{
+    order: 1;
+}
+.item2{
+    order: 4;
+}
+.item3{
+    order: 5;
+}
+.item4{
+    order: 2;
+}
+.item5{
+    order: 3;
+}
+.item6{
+    order: 6;
+}
+}
