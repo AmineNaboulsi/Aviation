@@ -22,7 +22,7 @@ body{
 /* Mobile */
 @media (min-width: 768px) {
     .container {
-      width: 850px;
+      width: 738px;
     }
   }
   /* tablet */
@@ -30,11 +30,22 @@ body{
     .container {
       width: 970px;
     }
-  
+
   }
   /* desktop */
   @media (min-width: 1200px) {
     .container {
       width: 1170px;
     }
+}
+
+::-webkit-scrollbar{
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: #a7a7a7;
+  border-radius: 10px;
+}
+::-webkit-scrollbar{
+  width: 10px;
 }
