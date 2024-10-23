@@ -51,6 +51,17 @@
     font-style: 16px;
     outline: none;
 }
+.sub-button{
+    padding: 12px 30px;
+    background-color: #d64937;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-style: 16px;
+    
+}
+
 /* Footer Container Styles */
 footer {
     background: linear-gradient(135deg, var(--TitleColor) 0%, var(--PrimaryColor) 100%);
