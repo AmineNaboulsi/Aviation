@@ -1,0 +1,135 @@
+:root{
+    --PrimaryColor : #18599C ;
+    --SecondColor : #D14A37 ;
+    --TitleColor : rgb(37, 37, 37);
+    --SubtitleColor : rgb(87, 86, 86);
+    --IconsImgSize : 40px
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Popping Pro', sans-serif;
+}
+/*      Slider     */
+.slide-container {
+    display: flex;
+    gap: 12px;
+    margin: 15px auto;
+    padding: 30px;
+    width: 100%;
+    width: 80%;
+    border-radius: 50px;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 20px;
+    overflow: scroll;
+}
+
+.slide-container .card {
+    display: flex;
+    flex: 0 0 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background: #fff;
+    scroll-snap-align: start;
+    border-radius: 50px;
+}
+
+.card .image {
+    height: 280px;
+    width: 280px;
+    padding: 4px;
+    object-fit: cover;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.card h2 {
+    margin-top: 25px;
+    color: #18599C;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.card {
+    margin-top: 4px;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(87, 86, 86);
+    text-align: center;
+}
+
+/*      Counting-numbers     */
+.num-card {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 180px;
+    background: #800d0d;
+}
+
+.num-card .num {
+    font-size: 22px;
+    color: #18599C;
+    font-weight: 600;
+    margin: auto;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.num-card .p {
+    font-size: 18px;
+    color: rgb(87, 86, 86);
+    font-weight: 400;
+    margin-top: 5px;
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and (min-width:1024px) {
+    .slide-container {
+        display: flex;
+        gap: 12px;
+        margin: 15px auto;
+        padding: 30px;
+        width: 100%;
+        width: 80%;
+        border-radius: 50px;
+    }
+    .slide-container .card {
+        display: flex;
+        flex: 0 0 100%;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        border-radius: 50px;
+    }
+}
+  
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 480px) {
+    
+}
+
+/*      Counting-numbers     */
+
+  
+
+
+
+
+/*      Responsive     */
+
+
+
+
+/*      Animations     */

@@ -1,22 +1,28 @@
 :root{
     --PrimaryColor : #18599C ;
     --SecondColor : #D14A37 ;
+    --TitleColor : rgb(37, 37, 37);
+    --SubtitleColor : rgb(87, 86, 86);
+    --IconsImgSize : 40px
 }
 body{
     margin: 0;
     padding: 0;
     height: 100dvh;
+    position: relative;
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+.container{
+  margin-inline: auto;
+}
 /* Mobile */
 @media (min-width: 768px) {
     .container {
-      width: 850px;
+      width: 738px;
     }
   }
   /* tablet */
@@ -31,4 +37,15 @@ body{
     .container {
       width: 1170px;
     }
+}
+
+::-webkit-scrollbar{
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: #a7a7a7;
+  border-radius: 10px;
+}
+::-webkit-scrollbar{
+  width: 10px;
 }
