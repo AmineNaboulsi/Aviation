@@ -22,7 +22,7 @@ body{
 /* Mobile */
 @media (min-width: 768px) {
     .container {
-      width: 768px;
+      width: 738px;
     }
   }
   /* tablet */
