@@ -24,7 +24,7 @@ body{
     .container {
       width: 970px;
     }
-  
+
   }
   /* desktop */
   @media (min-width: 1200px) {
