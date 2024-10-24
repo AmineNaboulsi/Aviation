@@ -1,12 +1,21 @@
 @media screen and (max-width: 768px) {
 
-    h2{
-        font-size: 30px;
+    .contact h2{
+        font-size: 17px;
+        color: #18599C;
     }
-    p{
-        font-size: 16px;
+    .insight h2{
+        font-size: 17px;
+        color: #18599C;
+
     }
-    .contact{
+    .insight p{
+        font-size: 9px;
+    }
+    .contact p{
+        font-size: 9px;
+    } 
+     .contact{
         border: none;
         border-radius: 30px;
         margin: 1%;
@@ -24,7 +33,7 @@
             text-align: end;
             margin-top: 100px;
     }
-    form button{
+    .formi button{
         border: none;
         border-radius: 20px;
         width: 90px;
@@ -35,7 +44,7 @@
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
     
-    form button:hover { 
+    .formi  button:hover { 
         background-color: #000000;
         transform: scale(1.1); 
         color: #FFFFFF;
