@@ -43,9 +43,8 @@
 
 
 .header-plant {
-    transform: translateZ(200px);
+    transform: translateZ(0px);
     animation: zoomin-clouds 1s forwards;
-
     animation-timeline: view(50vh 0px);
 } */
  .navbar{
@@ -131,8 +130,7 @@ nav img{
 .header-langue{
     display: block;
 } 
-     performance-categories                  
-   .performande-categories{
+.performande-categories{
     box-sizing: content-box !important;
     background-color: #f7f7f763;
     display: grid;

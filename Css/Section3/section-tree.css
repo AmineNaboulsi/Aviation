@@ -223,10 +223,6 @@ body {
 
  /* Media Queries  */
   @media (max-width: 480px) {
-    .container {
-        padding: 16px;
-    }
-
     .gallery-container {
         transform: scale(0.9);
         margin: 0 -20px;
