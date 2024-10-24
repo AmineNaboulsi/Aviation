@@ -1,45 +1,23 @@
-:root{
-    --PrimaryColor : #18599C ;
-    --SecondColor : #D14A37 ;
-    --TitleColor : rgb(37, 37, 37);
-    --SubtitleColor : rgb(87, 86, 86);
-    --IconsImgSize : 40px
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Popping Pro', sans-serif;
-}
-/*      Slider     */
 .slide-container {
     display: flex;
     gap: 12px;
-    margin: 15px auto;
-    padding: 30px;
+    margin: 10px auto;
     width: 100%;
-    width: 80%;
     border-radius: 50px;
-    scroll-snap-type: x mandatory;
-    scroll-padding: 20px;
-    overflow: scroll;
 }
 
 .slide-container .card {
     display: flex;
-    flex: 0 0 100%;
     flex-direction: column;
     align-items: center;
     padding: 10px;
     background: #fff;
-    scroll-snap-align: start;
     border-radius: 50px;
 }
 
 .card .image {
-    height: 280px;
-    width: 280px;
-    padding: 4px;
+    height: 200px;
+    width: 200px;
     object-fit: cover;
 }
 
@@ -68,14 +46,14 @@
 /*      Counting-numbers     */
 .num-count {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-columns: auto auto auto auto;
     grid-gap: 20px;
     align-items: stretch;
     align-content: center;
     margin-top: 50px;
     height: 150px;
 }
-  
+
 .num-count .num {
     background: #F4F4F4;
     color: #18599C;
@@ -84,11 +62,198 @@
     text-align: center;
     border-radius: 50px;
 }
-  
+
 .num-count p {
     margin-top: 4px;
     font-size: 18px;
     font-weight: 400;
     color: rgb(87, 86, 86);
     text-align: center;
+}
+
+/*      Service-card     */
+.services-card {
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+}
+
+.services-card .services_items {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    background: #18599C;
+    padding: 20px;
+}
+
+.services_items .fir-card {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.services_items .sec-card {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.services-card .services_items .service-item {
+    background: #fff;
+    width: 150px;
+    border-radius: 50px;
+    justify-items: center;
+    text-align: center;
+    padding: 15px;
+}
+
+.top-img-ser {
+    float: right;
+    width: 250px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+.bottom-img-ser {
+    float: left;
+    width: 250px;
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+/*----------------------------Media Query--------------------------------*/
+
+/* Mobile */
+@media (max-width: 768px) {
+    /*      Slider     */
+    .slide-container {
+        display: flex;
+        gap: 12px;
+        margin: 15px auto;
+        width: 100%;
+        width: 80%;
+        border-radius: 50px;
+        scroll-snap-type: x mandatory;
+        scroll-padding: 20px;
+        overflow: scroll;
+    }
+
+    .slide-container .card {
+        display: flex;
+        flex: 0 0 100%;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        background: #fff;
+        scroll-snap-align: start;
+        border-radius: 50px;
+    }
+
+    .card .image {
+        height: 280px;
+        width: 280px;
+        object-fit: cover;
+    }
+
+    .image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50px;
+    }
+
+    .card h2 {
+        margin-top: 25px;
+        color: #18599C;
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .card {
+        margin-top: 4px;
+        font-size: 18px;
+        font-weight: 400;
+        color: rgb(87, 86, 86);
+        text-align: center;
+    }
+
+    /*      Counting-numbers     */
+    .num-count {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        grid-gap: 20px;
+        align-items: stretch;
+        align-content: center;
+        margin-top: 50px;
+        height: 150px;
+    }
+    
+    .num-count .num {
+        background: #F4F4F4;
+        color: #18599C;
+        height: 80px;
+        align-content: center;
+        text-align: center;
+        border-radius: 50px;
+    }
+    
+    .num-count p {
+        margin-top: 4px;
+        font-size: 18px;
+        font-weight: 400;
+        color: rgb(87, 86, 86);
+        text-align: center;
+    }
+
+    /*      Service-card     */
+    .services-card {
+        width: 100%;
+        height: auto;
+        margin-top: 100px;
+    }
+
+    .services-card .services_items {
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        background: #18599C;
+        padding: 20px;
+    }
+
+    .services_items .fir-card {
+        justify-content: center;
+        justify-content: space-around;
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+
+    .services_items .sec-card {
+        justify-content: center;
+        justify-content: space-around;
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .services-card .services_items .service-item {
+        background: #fff;
+        width: 150px;
+        border-radius: 50px;
+        justify-items: center;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .top-img-ser {
+        float: right;
+        width: 200px;
+        height: 50px;
+        margin-top: 50px;
+    }
+    
+    .bottom-img-ser {
+        float: left;
+        width: 200px;
+        height: 50px;
+        margin-bottom: 50px;
+    }
 }
