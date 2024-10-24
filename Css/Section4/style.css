@@ -1,4 +1,4 @@
-@media screen and (min-width: 1200px) {
+ @media screen and (min-width: 1200px) {
     .container{
         margin-inline: auto;
       }
@@ -111,4 +111,4 @@
     .desing img{
         width: 80%;
     }
-}
+} 

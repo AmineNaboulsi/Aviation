@@ -1,4 +1,4 @@
-@media screen and (min-width: 769px) and (max-width:  1200px) {
+ @media screen and (min-width: 769px) and (max-width:  1200px) {
     .container{
         margin-inline: auto;
       }
@@ -131,4 +131,4 @@
 .item6{
     order: 6;
 }
-}
+} 
