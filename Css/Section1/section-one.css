@@ -190,7 +190,7 @@ nav img{
 .section-squadtap{
     padding-block: 100px;
 }
-.capsulecart img{
+.capsulecart .bgcapsule{
     width: 100%;
     height: 200px;
 }
