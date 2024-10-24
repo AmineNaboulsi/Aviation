@@ -33,7 +33,7 @@
             text-align: end;
             margin-top: 100px;
     }
-    form button{
+    .formi button{
         border: none;
         border-radius: 20px;
         width: 90px;
@@ -44,7 +44,7 @@
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
     
-    form button:hover { 
+    .formi  button:hover { 
         background-color: #000000;
         transform: scale(1.1); 
         color: #FFFFFF;
