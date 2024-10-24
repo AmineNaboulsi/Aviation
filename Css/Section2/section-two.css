@@ -87,7 +87,7 @@
 .services-card .services_items {
     display: flex;
     justify-content: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     background: #18599C;
     padding: 20px;
 }
