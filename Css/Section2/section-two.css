@@ -32,7 +32,7 @@
     margin-top: 25px;
     color: #18599C;
     font-size: 22px;
-    font-weight: 600;
+    font-weight: bolder;
 }
 
 .card {
@@ -57,6 +57,8 @@
 .num-count .num {
     background: #F4F4F4;
     color: #18599C;
+    font-weight: bolder;
+    font-size: 40px;
     height: 80px;
     align-content: center;
     text-align: center;
@@ -80,10 +82,20 @@
 
 .services-card .services_items {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    justify-content: space-evenly;
+    gap: 60px;
     background: #18599C;
     padding: 20px;
+}
+
+.services-card .services_items .service-item {
+    background: #fff;
+    width: 150px;
+    border-radius: 50px;
+    justify-items: center;
+    text-align: center;
+    padding: 15px;
 }
 
 .services_items .fir-card {
@@ -98,14 +110,23 @@
     gap: 30px;
 }
 
-.services-card .services_items .service-item {
-    background: #fff;
-    width: 150px;
-    border-radius: 50px;
-    justify-items: center;
-    text-align: center;
-    padding: 15px;
+.services_items .sic1 {
+    margin-top: 50px;
 }
+
+.services_items .sic2 {
+    margin-bottom: 50px;
+}
+
+.services_items .sic3 {
+    margin-top: 50px;
+}
+
+.services_items .sic4 {
+    margin-bottom: 50px;
+}
+
+
 
 .top-img-ser {
     float: right;
@@ -185,6 +206,7 @@
         align-items: stretch;
         align-content: center;
         margin-top: 50px;
+        margin-bottom: 50px;
         height: 150px;
     }
     
@@ -209,7 +231,7 @@
     .services-card {
         width: 100%;
         height: auto;
-        margin-top: 100px;
+        margin-top: 150px;
     }
 
     .services-card .services_items {
@@ -224,14 +246,14 @@
         justify-content: center;
         justify-content: space-around;
         flex-direction: column;
-        padding-bottom: 50px;
+        padding-bottom: 100px;
     }
 
     .services_items .sec-card {
         justify-content: center;
         justify-content: space-around;
         flex-direction: column;
-        padding-top: 50px;
+        padding-top: 100px;
     }
 
     .services-card .services_items .service-item {
