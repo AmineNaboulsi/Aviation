@@ -13,3 +13,11 @@ window.onscroll = () =>{
         console.log("bzaf position");
     }
 }
+const OpenMenu = () => {
+    const togglepanel = document.getElementById("togglepanel");
+    togglepanel.style.display = "grid"
+}
+const CloseMenu = () => {
+    const togglepanel = document.getElementById("togglepanel");
+    togglepanel.style.display = "none"
+}
