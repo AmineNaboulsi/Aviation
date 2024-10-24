@@ -1,17 +1,23 @@
-//Responsive Number Counting Animation // Start here
-let valueDisplays = document.querySelectorAll(".num");
-let interval = 4000;
+window.onscroll = () =>{
+    const actionbar = document.getElementById("action_bar");
+    let scrollPosition = window.scrollY;
+    if(scrollPosition==0){
+        actionbar.style.backdropFilter = 'blur(0px)' ;
+        actionbar.style.borderBottom = 'none' ;
 
-valueDisplays.forEach((valueDisplay) => {
-  let startValue = 0;
-  let endValue = parseInt(valueDisplay.getAttribute("data-val"));
-  let duration = Math.floor(interval / endValue);
-  let counter = setInterval(function () {
-    startValue +=1;
-    valueDisplay.textContent = startValue;
-    if (startValue == endValue) {
-      clearInterval(counter);
+        console.log("0 position");
     }
-  }, duration);
-});
-// End here
+    else{
+        actionbar.style.backdropFilter = 'blur(10px)' ;
+        actionbar.style.borderBottom = '1px solid #C4C4C4' ;
+        console.log("bzaf position");
+    }
+}
+const OpenMenu = () => {
+    const togglepanel = document.getElementById("togglepanel");
+    togglepanel.style.display = "grid"
+}
+const CloseMenu = () => {
+    const togglepanel = document.getElementById("togglepanel");
+    togglepanel.style.display = "none"
+}
