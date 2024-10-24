@@ -234,7 +234,17 @@ nav img{
     color: #18599C;
 } 
 
-
+@media (max-width: 768px) {
+    .actionbar nav ul{
+        display: none;
+    }
+    .menuicon{   
+        display: block;
+    }
+    .header-langue{
+        display: none;
+    }
+}
 
 @media (max-width: 1200px) {
     .header-plant {
@@ -249,9 +259,7 @@ nav img{
         object-fit: contain;
         left: 0;
     }
-    .actionbar nav ul{
-        display: none;
-    }
+
     nav{
         display: flex;
         justify-content: space-between;
@@ -284,15 +292,11 @@ nav img{
     .description{
         margin-bottom: 4rem;
     }
-    .header-langue{
-        display: none;
-    }
+
     .line1 , .line2{
         display: none;
     }
-    .menuicon{   
-        display: block;
-    }
+
     .section-squadtap{
         padding-block: 20px;
     }
@@ -348,6 +352,16 @@ nav img{
 
 /*      slider panel    */
 
+
+@keyframes dialogmenu {
+    from{
+        grid-template-rows: 1fr 0%;
+    }
+    to{
+        grid-template-rows: 1fr 70%;
+    }
+}
+
 .togglepanel{
     position: fixed;
     inset: 0;
@@ -355,6 +369,8 @@ nav img{
     display: grid;
     grid-template-rows: 1fr 70%;
     display: none;
+    transition: grid-template-rows 0.5s;
+    animation: dialogmenu 0.5s;
 }
 .poppupDiyalog{
     grid-row: 2;
@@ -363,7 +379,6 @@ nav img{
     backdrop-filter: blur(10px);
     border: 1px solid #000000;
     z-index: 3;
-
 }
 .poppupDiyalog .popupbar{
     background-color: #000000;
