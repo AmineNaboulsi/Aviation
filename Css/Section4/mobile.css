@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+ @media screen and (max-width: 768px) {
 
     .contact h2{
         font-size: 17px;
@@ -120,4 +120,4 @@
 .item6{
     order: 6;
 }
-}
+} 
