@@ -250,13 +250,11 @@ body {
     .d-desktop-block {
         display: block !important;
     }
-    body {
-        
-    }
+
     .header {
         position: relative;
     }
-    
+
     .header-image {
         position: absolute;
         right: 0;
@@ -264,21 +262,21 @@ body {
         width: 45%;
         height: auto;
     }
-    
+
     .header-image img {
         width: 100%;
         height: auto;
         object-fit: contain;
     }
-    
+
     .objectives {
         position: relative;
     }
-    
+
     .objectives-content {
         width: 50%;
     }
-    
+
     .objectives-image {
         position: absolute;
         right: 0;
@@ -287,7 +285,7 @@ body {
         width: 45%;
         height: auto;
     }
-    
+
     .objectives-image img {
         width: 100%;
         height: auto;
@@ -299,5 +297,8 @@ body {
 @media (max-width: 1023px) {
     .d-desktop-block {
         display: none !important;
+    }
+    .container-ousama {
+        max-width: 100%;
     }
 }
