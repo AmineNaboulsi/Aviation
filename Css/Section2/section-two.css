@@ -4,6 +4,11 @@
     margin: 10px auto;
     width: 100%;
     border-radius: 50px;
+    transform: translateX(-100%);
+    animation: slideIn 3s forwards;
+    animation-timeline: view();
+    animation-range-end: 40vh;
+    animation-range-start: 0px;
 }
 
 .slide-container .card {
@@ -52,6 +57,11 @@
     align-content: center;
     margin-top: 50px;
     height: 150px;
+    transform: scale(0);
+    animation: zoomIn 3s forwards;
+    animation-timeline: view();
+    animation-range-end: 40vh;
+    animation-range-start: 0px;
 }
 
 .num-count .num {
@@ -96,6 +106,11 @@
     justify-items: center;
     text-align: center;
     padding: 15px;
+    transform: rotate(-200deg);
+    animation: rotateIn 3s forwards;
+    animation-timeline: view();
+    animation-range-end: 40vh;
+    animation-range-start: 0px;
 }
 
 .services_items .fir-card {
@@ -157,7 +172,7 @@
         scroll-snap-type: x mandatory;
         scroll-padding: 20px;
         overflow: scroll;
-    }
+}
 
     .slide-container .card {
         display: flex;
@@ -208,7 +223,7 @@
         margin-top: 50px;
         margin-bottom: 50px;
         height: 150px;
-    }
+}
     
     .num-count .num {
         background: #F4F4F4;
@@ -277,5 +292,28 @@
         width: 200px;
         height: 50px;
         margin-bottom: 50px;
+    }
+}
+
+/*----------------------------Keyframes--------------------------------*/
+
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes rotateIn {
+    to {
+        opacity: 1;
+        transform: rotate(0);
+    }
+}
+
+@keyframes zoomIn {
+    to {
+        opacity: 1;
+        transform: scale(1);
     }
 }
