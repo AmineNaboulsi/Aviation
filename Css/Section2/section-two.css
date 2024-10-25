@@ -162,12 +162,15 @@
 /* Mobile */
 @media (max-width: 768px) {
     /*      Slider     */
+    .num h2{
+        font-size: 1.6rem;
+    }
     .slide-container {
         display: flex;
         gap: 12px;
         margin: 15px auto;
         width: 100%;
-        width: 80%;
+        width: 100%;
         border-radius: 50px;
         scroll-snap-type: x mandatory;
         scroll-padding: 20px;
