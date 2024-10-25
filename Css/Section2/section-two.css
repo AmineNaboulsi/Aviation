@@ -106,11 +106,7 @@
     justify-items: center;
     text-align: center;
     padding: 15px;
-    transform: rotate(-200deg);
-    animation: rotateIn 3s forwards;
-    animation-timeline: view();
-    animation-range-end: 40vh;
-    animation-range-start: 0px;
+
 }
 
 .services_items .fir-card {
