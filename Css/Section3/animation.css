@@ -21,7 +21,7 @@
 
 
 .objct {
-    transform: scale(1.2);
+    transform: scale(0);
     opacity: 0;
     overflow: hidden;
     animation: zoomOut 1.2s ease-out forwards;

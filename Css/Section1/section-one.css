@@ -353,15 +353,6 @@ nav img{
 /*      slider panel    */
 
 
-@keyframes dialogmenu {
-    from{
-        grid-template-rows: 1fr 0%;
-    }
-    to{
-        grid-template-rows: 1fr 70%;
-    }
-}
-
 .togglepanel{
     position: fixed;
     inset: 0;
@@ -432,6 +423,17 @@ nav img{
 }
 /*      Animations     */
 
+
+
+@keyframes dialogmenu {
+    from{
+        grid-template-rows: 1fr 0%;
+    }
+    to{
+        grid-template-rows: 1fr 70%;
+    }
+}
+
  @keyframes zoomin-clouds {
     0% {
         transform: translateZ(200px);
@@ -442,11 +444,11 @@ nav img{
 }
 @keyframes move-clouds {
     0% {
-        transform: translateX(-110%) 
+        transform: translateX(110%) 
         translateY(2rem) scaleX(-1) rotate(6deg);
     }
     100% {
-        transform: translateX(110%) translateY(2rem)
+        transform: translateX(-110%) translateY(2rem)
          scaleX(-1)  rotate(6deg);
     }
 }
