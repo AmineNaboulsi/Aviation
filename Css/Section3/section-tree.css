@@ -79,7 +79,7 @@
     margin: 40px 0;
     overflow: hidden;
 }
-  
+
 .img1-os {
     width: 140px;
     height: auto;
@@ -190,6 +190,10 @@
     height: 100%;
     object-fit: cover;
 }  
+
+.mages {
+    display: none;
+}
 
 .mages {
     display: none;
