@@ -53,7 +53,7 @@
     display: flex;
     justify-content: center;
     position: relative;
-    width: 100vw;
+    width: 450px;
     height: 500px;
     margin: 40px 0;
     overflow: hidden;
@@ -195,6 +195,8 @@
     .gallery-container-os {
         transform: scale(0.9);
         margin: 0 -20px;
+        width: 100vw;
+
     }
 
     .header h2 {
@@ -288,6 +290,7 @@
         right: 0;
         width: 100%;
         z-index: 3;
+        opacity: 1 !important;
     }
 
     .plantrightside-img2 {
