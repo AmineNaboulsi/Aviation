@@ -8,9 +8,7 @@
         color: #18599C;
 
     }
-    .insight p{
-        font-size: 20px;
-    }
+  
     .contact p{
         font-size: 20px;
     }
@@ -82,7 +80,7 @@
         grid-template-columns:40% 40%;
         gap: 7%;
     }
-    .media{
+    .card-itemss{
         margin:5%;
         display: grid;
         grid-template-columns: 400px 400px 400px;
@@ -91,32 +89,23 @@
         gap :5%;
         border-radius: 10px;
     }
-    .media img{
+    .card-itemss img{
         border-radius: 10px;
+    }
+    .card-itemss h3{
+        padding: 20px;
     }
     .insight {
         text-align: center;
         
     }
-    .item1,.item2, .item3{
-        transition: transform 0.5s ease, box-shadow 0.5s ease;
-    transform: scale(1); 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-     }
-
-     .item1:hover, .item2:hover, .item3:hover {
-        transform: scale(0.9); 
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-    }
-    .item4, .item5, .item6 {
-        transition: background-color 0.5s ease, box-shadow 0.5s ease; 
-        padding: 10px;   
-    }
-    .item4:hover, .item5:hover, .item6:hover {
-        background-color: #D14A37;
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
-    }
     .desing img{
         width: 80%;
     }
+    .card-itemss a{
+        color: #1E1E1E;
+        text-align: left;
+        text-decoration: none;
+    }
+    
 } 
