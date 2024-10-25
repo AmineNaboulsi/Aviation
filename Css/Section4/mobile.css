@@ -12,6 +12,7 @@
     }
     .insight p{
         font-size: 9px;
+        padding: 10px;
     }
     .contact p{
         font-size: 9px;
@@ -89,6 +90,11 @@
     .item1, .item2, .item3{
         border: none;
         border-radius: 10px;
+    }
+    .item4, .item5, .item6{
+        border: none;
+        border-radius: 10px;
+        text-align: left;
     }
     .media{
         margin-top: 100px;

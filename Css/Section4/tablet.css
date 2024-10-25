@@ -118,6 +118,11 @@
         transition: background-color 0.5s ease, box-shadow 0.5s ease; 
         padding: 10px;   
     }
+    .item4, .item5, .item6{
+        border: none;
+        border-radius: 10px;
+        text-align: left;
+    }
     .item4:hover, .item5:hover, .item6:hover {
         background-color: #D14A37;
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
