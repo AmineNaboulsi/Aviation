@@ -1,102 +1,105 @@
+
 #title-os h2 {
     opacity: 0;
-    transform: translateY(20px);
-    animation: fadeSlideUp 0.8s ease-out forwards;
+    transform: translateY(30px);
+    animation: fadeSlideUp 1s ease-out forwards;
 }
 
 @keyframes fadeSlideUp {
-    from {
+    0% {
         opacity: 0;
-        transform: translateY(20px);
+        transform: translateY(30px);
     }
-    to {
+    100% {
         opacity: 1;
         transform: translateY(0);
     }
 }
 
+
 .objct {
     transform: scale(1.2);
     opacity: 0;
-    animation: zoomOut 1s ease-out forwards;
+    animation: zoomOut 1.2s ease-out forwards;
 }
 
 @keyframes zoomOut {
-    from {
+    0% {
         transform: scale(1.2);
         opacity: 0;
     }
-    to {
+    100% {
         transform: scale(1);
         opacity: 1;
     }
 }
 
+
 .objective-item {
     opacity: 0;
-    transform: translateX(-20px);
-    animation: slideInLeft 0.5s ease-out forwards;
+    transform: translateX(-25px);
+    animation: slideInLeft 0.7s ease-out forwards;
 }
 
 .objective-item:nth-child(1) { animation-delay: 0.3s; }
-.objective-item:nth-child(2) { animation-delay: 0.5s; }
-.objective-item:nth-child(3) { animation-delay: 0.7s; }
+.objective-item:nth-child(2) { animation-delay: 0.6s; }
+.objective-item:nth-child(3) { animation-delay: 0.9s; }
 
 @keyframes slideInLeft {
-    from {
+    0% {
         opacity: 0;
-        transform: translateX(-20px);
+        transform: translateX(-25px);
     }
-    to {
+    100% {
         opacity: 1;
         transform: translateX(0);
     }
 }
 
+
 .cta-button {
-    animation: pulse 1.5s infinite ease-in-out;
+    animation: pulse 1.8s infinite ease-in-out;
 }
 
 @keyframes pulse {
     0%, 100% { transform: scale(1); }
-    50% { transform: scale(1.05); }
+    50% { transform: scale(1.1); }
 }
+
 
 .gallery-container-os img {
     opacity: 0;
-    animation: fadeIn 1.5s ease-out forwards;
+    animation: fadeIn 1.8s ease-out forwards;
 }
 
 @keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+    0% { opacity: 0; }
+    100% { opacity: 1; }
 }
+
 
 .timeline-item {
     opacity: 0;
-    transform: translateX(-20px);
-    animation: slideInTimeline 0.6s ease-out forwards;
+    transform: translateX(-25px);
+    animation: slideInTimeline 0.8s ease-out forwards;
 }
 
 .timeline-item:nth-child(1) { animation-delay: 0.2s; }
-.timeline-item:nth-child(2) { animation-delay: 0.4s; }
-.timeline-item:nth-child(3) { animation-delay: 0.6s; }
-.timeline-item:nth-child(4) { animation-delay: 0.8s; }
+.timeline-item:nth-child(2) { animation-delay: 0.5s; }
+.timeline-item:nth-child(3) { animation-delay: 0.7s; }
+.timeline-item:nth-child(4) { animation-delay: 1s; }
 
 @keyframes slideInTimeline {
-    from {
+    0% {
         opacity: 0;
-        transform: translateX(-20px);
+        transform: translateX(-25px);
     }
-    to {
+    100% {
         opacity: 1;
         transform: translateX(0);
     }
 }
+
 
 .mages {
     display: flex;
@@ -107,40 +110,41 @@
 .image-item {
     opacity: 0;
     position: relative;
-    animation: slideToCenter 1s ease-out forwards;
+    animation: slideToCenter 1.2s ease-out forwards;
 }
 
 .image-item.top {
-    transform: translateX(-100px);
+    transform: translateX(-110px);
 }
 
 .image-item.bottom {
-    transform: translateX(100px);
+    transform: translateX(110px);
 }
 
 @keyframes slideToCenter {
-    from {
+    0% {
         opacity: 0;
-        transform: translateX(100px);
+        transform: translateX(110px);
     }
-    to {
+    100% {
         opacity: 1;
         transform: translateX(0);
     }
 }
 
+
 .plantrightside-img1 {
     opacity: 0;
-    transform: translateX(100%);
-    animation: slideInFromRight 1s ease-out forwards;
+    transform: translateX(120%);
+    animation: slideInFromRight 1.3s ease-out forwards;
 }
 
 @keyframes slideInFromRight {
-    from {
+    0% {
         opacity: 0;
-        transform: translateX(100%);
+        transform: translateX(120%);
     }
-    to {
+    100% {
         opacity: 1;
         transform: translateX(0);
     }
