@@ -105,7 +105,19 @@
    .card-itemss a{
     color: #1E1E1E;
     text-align: left;
-    text-decoration: none;
 }
+   .tesxxt h5{
+    font-size: larger;
 
+   }
+.tesxxt{
+    padding: 20px;
+    color: #000000;
+    text-align: left;
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
 } 

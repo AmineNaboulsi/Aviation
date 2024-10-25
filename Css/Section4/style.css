@@ -92,10 +92,15 @@
     .card-itemss img{
         border-radius: 10px;
     }
-    .texxt{
+    .tesxxt{
+        margin-top: 20;
         padding: 20px;
         color: #1E1E1E;
         text-align: left;
+        font-size: larger;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
 
     }
     .titlee {
@@ -105,9 +110,5 @@
     .desing img{
         width: 80%;
     }
-    .card-itemss a{
-        
-        text-decoration: none;
-    }
-    
+
 } 
