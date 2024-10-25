@@ -5,7 +5,7 @@
     /* background-color: #FAF3E0; */
 }
 #driiiis-bg{
-    background-image: url(/Assets/fly-bg-desktop.png);
+    background-image: url(./Assets/fly-bg-desktop.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

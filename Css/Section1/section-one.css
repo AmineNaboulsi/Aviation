@@ -41,11 +41,11 @@
 }
 
 
+
 .header-plant {
-    transform: translateZ(0px);
-    animation: zoomin-clouds 1s forwards;
-    animation-timeline: view(50vh 0px);
-} */
+    transform: translateX(0%); 
+  
+} 
  .navbar{
     display: block;
 }
@@ -479,4 +479,14 @@ nav img{
     100% {
         transform: translateX(calc(4 * -100%));
     }
+}
+
+@keyframes plant_animation_moves {
+    0% {
+        transform: translateX(0%); 
+    }
+    100%{
+        transform: translateX(100%); 
+    }
+
 }
