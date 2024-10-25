@@ -6,13 +6,11 @@
         color: #18599C;
     }
     .insight h2{
-        font-size: 20px;
+        font-size: 90px;
         color: #18599C;
 
     }
-    .insight p{
-        font-size: 12px;
-    }
+
     .contact p{
         font-size: 12px;
     } 
@@ -80,69 +78,34 @@
         grid-template-columns:40% 40%;
         gap: 7%;
     }
-    .desing{
-        display: none;
-    }
-    .media img{
-        width: 75%;
-       
-    }
-    .item1, .item2, .item3{
-        border: none;
-        border-radius: 10px;
-    }
-    .media{
-        margin-top: 100px;
-        display: grid;
-        grid-template-columns:auto auto;
-        align-items: center;
-        justify-items: center; 
-        gap :5%
-    }
-    .item1,.item2, .item3{
-        transition: transform 0.5s ease, box-shadow 0.5s ease;
-    transform: scale(1); 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-     }
-
-     .item1:hover, .item2:hover, .item3:hover {
-        transform: scale(1.2); 
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-    }
     .insight {
         text-align: center;
         margin-bottom: 100px;
     }
-    .item4, .item5, .item6 {
+    .desing{
+        display: none;
+    }
+    .card-itemss img{
+        width: 340px;
         border-radius: 10px;
-        transition: background-color 0.5s ease, box-shadow 0.5s ease; 
-        padding: 10px;   
+        margin: 10px;
+
     }
-    .item4, .item5, .item6{
-        border: none;
-        border-radius: 10px;
-        text-align: left;
+    .item2{
+        order: 2;
     }
-    .item4:hover, .item5:hover, .item6:hover {
-        background-color: #D14A37;
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
-    }
-.item1{
-    order: 1;
+   
+   .card_item {
+    display: grid;
+    grid-template-columns: 350px 350px;
+    align-items: center;
+    justify-content: space-around;
+    
+   }
+   .card-itemss a{
+    color: #1E1E1E;
+    text-align: left;
+    text-decoration: none;
 }
-.item2{
-    order: 4;
-}
-.item3{
-    order: 5;
-}
-.item4{
-    order: 2;
-}
-.item5{
-    order: 3;
-}
-.item6{
-    order: 6;
-}
+
 } 
