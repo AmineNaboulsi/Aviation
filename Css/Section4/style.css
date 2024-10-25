@@ -92,10 +92,13 @@
     .card-itemss img{
         border-radius: 10px;
     }
-    .card-itemss h3{
+    .texxt{
         padding: 20px;
+        color: #1E1E1E;
+        text-align: left;
+
     }
-    .insight {
+    .titlee {
         text-align: center;
         
     }
@@ -103,8 +106,7 @@
         width: 80%;
     }
     .card-itemss a{
-        color: #1E1E1E;
-        text-align: left;
+        
         text-decoration: none;
     }
     
