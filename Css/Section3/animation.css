@@ -1,8 +1,8 @@
-
 #title-os h2 {
     opacity: 0;
     transform: translateY(30px);
     animation: fadeSlideUp 1s ease-out forwards;
+    overflow: hidden;
     animation-timeline: view();
     animation-range-end: 40vh;
     animation-range-start: 0px;
@@ -23,6 +23,7 @@
 .objct {
     transform: scale(1.2);
     opacity: 0;
+    overflow: hidden;
     animation: zoomOut 1.2s ease-out forwards;
     animation-timeline: view();
     animation-range-end: 40vh;
@@ -43,6 +44,7 @@
 
 .objective-item {
     opacity: 0;
+    overflow: hidden;
     transform: translateX(-25px);
     animation: slideInLeft 0.7s ease-out forwards;
     animation-timeline: view();
@@ -136,6 +138,7 @@
 
 .image-item.top {
     transform: translateX(-110px);
+    overflow: hidden;
     animation-timeline: view();
     animation-range-end: 40vh;
     animation-range-start: 0px;
@@ -143,6 +146,8 @@
 
 .image-item.bottom {
     transform: translateX(110px);
+    overflow: hidden;
+
     animation-timeline: view();
     animation-range-end: 40vh;
     animation-range-start: 0px;
@@ -162,12 +167,12 @@
 
 .plantrightside-img1 {
     opacity: 0;
-    transform: translateX(120%);
+    /*transform: translateX(120%);*/
+    overflow: hidden;
     animation: slideInFromRight 1.3s ease-out forwards;
     animation-timeline: view();
     animation-range-end: 40vh;
     animation-range-start: 0px;
-    overflow: hidden;
 }
 
 @keyframes slideInFromRight {
